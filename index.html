@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a BSc CS & IT student at Silver Oak University">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- ============ NAVIGATION MENU ============ -->
+  <header class="navbar">
+    <a href="#home" class="logo">My<span>Portfolio</span></a>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+ 
+    <!-- ============ 1. HOMEPAGE ============ -->
+    <section id="home" class="hero">
+      <!-- Apni photo lagane ke liye niche wale div ko <img src="photo.jpg" alt="Profile photo" class="profile-img"> se replace karo -->
+      <img src="dipti.jpeg.jpeg" alt="description.jpeg.jpeg" class="profile-img"> 
+      <h1>Welcome to My Portfolio</h1>
+      <p class="tagline">Hi, I'm <strong>DIPTI</strong> — a Computer Science &amp; IT student who loves building useful web projects.</p>
+      <a href="#projects" class="btn">View My Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </section>
+ 
+    <!-- ============ 2. ABOUT ME ============ -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Personal Introduction</h3>
+          <p>I am <strong> Dipti Shivlal parajapati</strong>, a first-year IMS. Computer Science &amp; Information Technology student at Silver Oak University. I enjoy learning how websites and software work and turning ideas into real projects.</p>
+        </article>
+        <article class="card">
+          <h3>Career Objective</h3>
+          <p>To grow into a skilled web developer and software professional, build solutions that solve real-life problems, and keep learning new technologies.</p>
+        </article>
+        <article class="card">
+          <h3>Short Biography</h3>
+          <p>I started my college journey in 2026. Since then I have worked on projects like a hostel management web app, a food-waste prediction idea and a canteen ordering database system, which helped me learn teamwork and problem solving.</p>
+        </article>
+      </div>
+    </section>
+ 
+    <!-- ============ 3. SKILLS ============ -->
+    <section id="skills" class="alt">
+      <h2>Skills</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>HTML &amp; CSS</li>
+            <li>SQL &amp; DBMS concepts</li>
+            <li>Basic Programming (C / Python)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Time management</li>
+            <li>Problem solving</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Languages Known</h3>
+          <ul>
+            <li>Hindi</li>
+            <li>English</li>
+            <li>Gujarati</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Hobbies &amp; Interests</h3>
+          <ul>
+            <li>Web designing</li>
+            <li>Reading</li>
+            <li>Learning new technology</li>
+            <li>Current affairs</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+ 
+    <!-- ============ 4. EDUCATION ============ -->
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <caption>Academic Qualifications</caption>
+        <thead>
+          <tr><th>Qualification</th><th>Institute</th><th>Year</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>IMS. Computer Science &amp; IT (pursuing)</td><td>Silver Oak University</td><td>2026 – Present</td></tr>
+          <tr><td>Higher Secondary (12th)</td><td>s.t.josps</td><td>2026</td></tr>
+          <tr><td>Secondary (10th)</td><td>s.t.josps</td><td>2024</td></tr>
+        </tbody>
+      </table>
+ 
+      
+ 
+    <!-- ============ 5. PROJECTS ============ -->
+    <section id="projects" class="alt">
+      <h2>Projects</h2>
+      <div class="card-grid">
+         <article class="card project">
+          <h3>MathVerse</h3>
+          <p>A game-style website that makes learning mathematical concepts for computer applications fun.</p>
+          <p class="tech"><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        </article>
+      </div>
+    </section>
+ 
+    <!-- ============ 6. CONTACT PAGE ============ 
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-wrap">
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+ 
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+ 
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+ 
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+ 
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+ 
+        <aside class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><strong>Phone:</strong> +91 8849328150</p>
+          <p><strong>Email:</strong> <a href="mailto:yourname@example.com">silveroak233@gmail.com</a></p>
+          <h3>Social Media</h3>
+          <p>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a> |
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> |
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+          </p>
+        </aside>
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <footer>
+    <p>&copy; 2026 DIMPLE | B.Sc. CS &amp; IT, Silver Oak University</p>
+  </footer>
+ 
+</body>
+</html>
+ 
